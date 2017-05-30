@@ -1,9 +1,7 @@
 <?php
 if (!defined('ABSPATH')) {
     exit;
-}
-
-// Define Constants
+} // Define Constants
 define('PLUGIN_PATH', plugin_dir_path(__FILE__));
 define('PLUGIN_URL', plugins_url(basename(plugin_dir_path(__FILE__)), basename(__FILE__)));
 define('VERSION', '2.2.1');
